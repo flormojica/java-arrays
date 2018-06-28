@@ -47,10 +47,10 @@ myFunction3()
     document.write(JSON.stringify(k8)+"<br />");
 
     var k9 = gotCitiesCSV.split(',');
-       var k9 = [];
+       var k90 = [];
        for (var i = 0; i < 7; i++) {
            var k90= k9[i];
-           console.log(k9);
+           document.write(JSON.stringify(k9)+"<br />");
            if (k9.includes("aa") || k90.includes("ee") || k90.includes("ii") || k90.includes(
                    "oo") || k90.includes("uu")) {
                k9.push(k90);
